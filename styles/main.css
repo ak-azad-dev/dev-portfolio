@@ -1,0 +1,187 @@
+body {
+  margin: 0 auto;
+}
+/* Primary font styles */
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* Shared Styles */
+.text-center {
+  text-align: center;
+}
+.secondary-bg {
+  background-color: #fff8f3;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.text-dark1 {
+  color: #181818;
+}
+
+.text-dark2 {
+  color: #474747;
+}
+.text-dark3 {
+  color: #757575;
+}
+.btn-primary {
+  background-color: #fd6e0a;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 18px 35px;
+  border-radius: 5px;
+  border: none;
+}
+
+.section-title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.section-description {
+  color: #757575;
+  font-size: 18px;
+}
+
+/* Header Styles */
+.header {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: center left, bottom right;
+}
+
+/* Nav Styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Banner Styles */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+.banner-content {
+  max-width: 580px;
+  margin-top: 145px;
+}
+.banner-intro {
+  font-size: 45px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: bold;
+  color: #181818;
+  margin: 5px 0 20px 0;
+}
+.banner-description {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.banner-profile-pic {
+  width: 580px;
+}
+
+/* Main styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* About Styles */
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  margin-top: 130px;
+  max-width: 830px;
+}
+
+.about-items {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.about-item {
+  line-height: 1rem;
+}
+
+.item-title {
+  color: #757575;
+  font-size: 20px;
+}
+
+.item-description {
+  color: #474747;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Skills Styles */
+.skills {
+  margin-top: 130px;
+}
+
+.skills-description{
+    font-size: 18px;
+    max-width: 910px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+.skills-items{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skill-description{
+    max-width: 200px;
+    font-size: 16px;
+    line-height: 28px;
+}
