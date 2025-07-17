@@ -22,7 +22,6 @@ body {
 .text-dark1 {
   color: #181818;
 }
-
 .text-dark2 {
   color: #474747;
 }
@@ -34,17 +33,34 @@ body {
   color: #ffffff;
   font-size: 20px;
   font-weight: bold;
-  padding: 18px 35px;
+  padding: 18px 18px;
   border-radius: 5px;
   border: none;
 }
-
+.btn-secondary {
+  background-color: #fff8f3;
+  color: #fd6e0a;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 18px 25px;
+  border: 1px solid #fd6e0a;
+  border-radius: 5px;
+}
+.btn-primary {
+  display: inline-flex; /* or flex if block-level */
+  align-items: center;
+  gap: 20px;
+}
+.btn-secondary {
+  display: inline-flex; /* or flex if block-level */
+  align-items: center;
+  gap: 20px;
+}
 .section-title {
   color: #181818;
   font-size: 35px;
   font-weight: bold;
 }
-
 .section-description {
   color: #757575;
   font-size: 18px;
@@ -55,7 +71,8 @@ body {
   background-image: url("../images/developer.png"),
     url("../images/header_bg.png");
   background-repeat: no-repeat;
-  background-position: center left, bottom right;
+  background-position: left 20px center, bottom right;
+  height: 835px;
 }
 
 /* Nav Styles */
@@ -63,7 +80,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 200px;
+  margin: 0 164px 0 156px;
 }
 
 .nav-title {
@@ -74,11 +91,11 @@ nav {
 nav ul {
   display: flex;
   align-items: center;
+  gap: 50px;
 }
 
 nav ul li {
   list-style: none;
-  margin-right: 50px;
 }
 
 nav ul li a {
@@ -90,7 +107,7 @@ nav ul li a {
 .banner {
   display: flex;
   justify-content: space-between;
-  margin: 0 35px 0 200px;
+  margin: 0 30px 0 156px;
 }
 .banner-content {
   max-width: 580px;
@@ -101,7 +118,6 @@ nav ul li a {
   font-weight: 600;
   margin: 0 auto;
 }
-
 .banner-title {
   font-size: 85px;
   font-weight: bold;
@@ -113,7 +129,13 @@ nav ul li a {
   margin-bottom: 30px;
 }
 .banner-profile-pic {
-  width: 580px;
+  width: 584px;
+  height: 676px;
+  margin-top: 23px;
+}
+.banner-btn {
+  display: flex;
+  gap: 30px;
 }
 
 /* Main styles */
@@ -156,32 +178,135 @@ main {
   margin-top: 130px;
 }
 
-.skills-description{
-    font-size: 18px;
-    max-width: 910px;
-    line-height: 30px;
-    margin: 0 auto;
+.skills-description {
+  font-size: 18px;
+  max-width: 910px;
+  line-height: 30px;
+  margin: 0 auto;
 }
 
-.skills-items{
-    display: flex;
-    gap: 24px;
-    margin-top: 50px;
+.skills-items {
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
 }
 
-.skill{
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
-.skill-title{
-    font-size: 20px;
-    font-weight: bold;
+.skill-title {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.skill-description{
-    max-width: 200px;
-    font-size: 16px;
-    line-height: 28px;
+.skill-description {
+  max-width: 200px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* Resume Styles */
+.resume {
+  margin-top: 130px;
+}
+.resume-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.experience {
+  max-width: 510px;
+}
+h2.resume-column-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+h3.experience-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 30px 0 0 0;
+}
+h5.experience-subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 0 0;
+}
+p.experience-description {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 20px 47px 30px 0;
+  line-height: 28px;
+}
+hr {
+  color: #d1d1d1;
+}
+.resume-download-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #fff8f3;
+  display: flex;
+  justify-content: center;
+  padding: 130px 200px;
+  gap: 100px;
+  margin-top: 113px;
+}
+h3.footer-title {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+p.footer-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 20px 0 30px 0;
+}
+.quick-link {
+  display: flex;
+  gap: 24px;
+}
+h3.contact-title {
+  font-size: 35px;
+  font-weight: bold;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  height: 64px;
+  margin-bottom: 24px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff;
+  color: #757575;
+  padding: 10px 20px;
+}
+
+.contact-form textarea {
+  width: 100%;
+  height: 180px;
+  margin-bottom: 24px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff;
+  color: #757575;
+  padding: 10px 20px;
+}
+
+.contact-form textarea::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
+input:focus, textarea:focus{
+  outline: 2px solid #fd6e0a;
+  box-shadow: 0 0 0 3px rgba(253, 110, 10, 0.4);
 }
