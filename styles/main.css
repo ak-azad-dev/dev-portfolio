@@ -254,8 +254,8 @@ hr {
   background-color: #fff8f3;
   display: flex;
   justify-content: center;
-  padding: 130px 200px;
-  gap: 100px;
+  padding: 130px 156px;
+  gap: 117px;
   margin-top: 113px;
 }
 h3.footer-title {
@@ -280,7 +280,7 @@ h3.contact-title {
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
-  width: 100%;
+  width: 90%;
   height: 64px;
   margin-bottom: 24px;
   border-radius: 5px;
@@ -291,7 +291,7 @@ h3.contact-title {
 }
 
 .contact-form textarea {
-  width: 100%;
+  width: 90%;
   height: 180px;
   margin-bottom: 24px;
   border-radius: 5px;
